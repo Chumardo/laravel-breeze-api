@@ -10,15 +10,17 @@
                         <form>
                             <div class="mb-6">
                                 <input
+                                    type="name"
+                                    placeholder="Name"
+                                    class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none focus:border-primary focus-visible:shadow-none"
+                                />
+                            </div>
+                            <div class="mb-6">
+                                <input
                                     type="email"
                                     placeholder="Email"
                                     class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none focus:border-primary focus-visible:shadow-none"
                                 />
-                                <div class="flex">
-                                    <span
-                                        class="text-red-400 text-sm m-2 p-2"
-                                    ></span>
-                                </div>
                             </div>
                             <div class="mb-6">
                                 <input
@@ -26,10 +28,13 @@
                                     placeholder="Password"
                                     class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none focus:border-primary focus-visible:shadow-none"
                                 />
-                                <div class="flex">
-                                    <span class="text-red-400 text-sm m-2 p-2">
-                                    </span>
-                                </div>
+                            </div>
+                            <div class="mb-6">
+                                <input
+                                    type="password"
+                                    placeholder="Password Confirmation"
+                                    class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none focus:border-primary focus-visible:shadow-none"
+                                />
                             </div>
                             <div class="mb-10">
                                 <button
