@@ -1,3 +1,5 @@
 <script setup></script>
 
-<template></template>
+<template>
+    <h1>Vue Breeze API</h1>
+</template>
